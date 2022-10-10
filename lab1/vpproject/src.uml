@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>D:/studia/io/inz-oprogramowania/lab1/src</OriginalElement>
+  <nodes>
+    <node x="359.2122265338937" y="-66.09854503450194">subbusinesstier.entities.BookTitle</node>
+    <node x="-43.24291197255269" y="182.85998242429275">subbusinesstier.Facade</node>
+    <node x="38.68209562143312" y="-8.517575790194769">subbusinesstier.Factory</node>
+    <node x="830.3778801447183" y="171.84352687124652">subbusinesstier.entities.Book</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="subbusinesstier.Facade" target="subbusinesstier.entities.BookTitle" relationship="TO_MANY">
+      <point x="-8.802744730473933E-5" y="94.00001757570726" />
+      <point x="103.257" y="475.0" />
+      <point x="396.60738581146757" y="475.0" />
+      <point x="-85.60484072242616" y="257.7073885719169" />
+    </edge>
+    <edge source="subbusinesstier.entities.BookTitle" target="subbusinesstier.entities.Book" relationship="TO_MANY">
+      <point x="123.0" y="105.94207190574846" />
+      <point x="-101.0" y="0.0" />
+    </edge>
+    <edge source="subbusinesstier.entities.Book" target="subbusinesstier.entities.BookTitle" relationship="TO_ONE">
+      <point x="1.1985528169589088E-4" y="127.00047312875347" />
+      <point x="931.378" y="504.8231292517007" />
+      <point x="482.2121409135083" y="504.8231292517007" />
+      <point x="-8.562038544823736E-5" y="258.9995450345019" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.9388686131386861" showDependencies="true" x="493.0000000000001" y="342.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
